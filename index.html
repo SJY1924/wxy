@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js" integrity="sha512-yFjZbTYRCJodnuyGlsKamNE/LlEaEAxSUDe5+u61mV8zzqJVFOH7TnULE2/PP/l5vKWpUNnF4VGVkXh3MjgLsg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Document</title>
+    
+</head>
+<body>
+    <div class="wrap">
+        <header class="header">
+            <div class="container">
+                <div class="nav">
+                    <div class="navbar_logo">
+                        <a href="#">WXY</a>
+                    </div>
+                    <ul class="navbar_menu">
+                        <li><a href="./wxy_index.html"></a>WALLET</li>
+                        <li><a href="https://www.wxycoin.io/"></a>HOME</li>
+                        <li><a href="#"></a>DOWNLOAD</li>
+                        <li><a href="#"></a>NOTICE</li>
+                        <li><a href="#"></a>CONNET</li>
+                    </ul>
+                    <div class="navbar_m">
+                        <i class="fa-solid fa-bars" id="m_nav_btn"></i>
+                    </div>
+                </div>
+                <div class="m_nav" id="m_nav">
+                    <ul>
+                        <li><a href="#">My Wallet</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Download</a></li>
+                        <li><a href="#">otice</a></li>
+                        <li><a href="#">Connect</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <section class="section" class="main_section">
+            <div class="container">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="left_info">
+                            <div class="coin_name">
+                                <span>BNB</span>
+                            </div>
+                            <div class="coin_address">
+                                <p>Binance Coin</p>
+                                <p>Address : 0xff00bbd12f9ae64fe4dfa9f3dddfdc3d9ecc2378</p>
+                                <svg 
+                                xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="18px" height="21px">
+                               <image  x="0px" y="0px" width="18px" height="21px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAVCAQAAADhwnZkAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfmAwMLGwT70mdjAAABR0lEQVQoz6XSP0/TQRzH8deP/tpSwCb8aUESiMCKE4lx4QGwGMNTIDwABzfjgAk4wAysAgPByObEABoHSRgYWDQsDKwEojaltOfwa9PKHxl4T3ffvO++97m7KAAD5nQoiZKpIKXPhk2I68WiAUvONYm99VrGWlOqOPVVrUVKObLqpSHzbfKK+vTqMaqgoCgNOnQ7NWvQmyh8UPZHtzFHKmiXsehQ1qqqQ71mo7BuWUVVSadIkLPixII9E54KLk3Fjn3TSt6uT17pse0gCRXLyrhskR7J2/HTe2kf1ZBrc52yYfNeuPDOSOM2rnNmzmPBnoJ+x7dLVTv15c+kktLNdg3apYX7pBYeLAW/k7zxncqVrGmjcibj/+wT6Tes0/7dUlrJuu/Jmcr/PEqTX67qn0bsuRnlGwFquozbakhfPFG9td1nP5LhX0bzT8eBEV12AAAAAElFTkSuQmCC" />
+                               </svg>
+                               <svg 
+                               xmlns="http://www.w3.org/2000/svg"
+                               xmlns:xlink="http://www.w3.org/1999/xlink"
+                               width="19px" height="19px">
+                              <image  x="0px" y="0px" width="19px" height="19px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAQAAADYWf5HAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfmAwMLGyYusiaHAAAB/UlEQVQozwXBTUiUaQAA4Gc+X/n8GWYdLcPBXEwN1v6J2cqioliIPXSpiApqIWyDrkF06tqhWxBEBCkt7EIR9HcpzENR3RaXpCU3Km1ETUerGbV1ZnqexP2BT52zi5DQLGVKoyVf1JpQAj/Ey0fC1PrLTfXSKsZ0OGDQHkNi77zWIjLnszN1YSYfNx2WE8t64T98Q4+XflVtXqubZvKhSotR18ROS6tRL0giLeGqeb0ygkBJrZR6wYIaPfoNKasTa/RZrZKyUPHWZr+J5Cx476qKQz6YlHRQSZU3tgsZWa/UShjVo9lxt7y21kp/mxJZ0C0jVGlQVpLS65lx9X427LGzUlKWFK1SI3zVp03KP3ab8Aj92v3psbSikrJ/9QhJF7QKpr3SKaPPW9O6NMl67g+c1CjKue6DWUkjZiz3izdabRG544EN1nloUtQia9q4oiPK+q1xz0XvDBjW5pQT0qYFGBJbUrTVPrNWS7iBXtXuWrRLl2jMS5v8ZIM2T2Rtd9KYHa7YqcGgDsMmBNpF+tQ5at6goj32yvvmvLX22eijkhAJCvIK/letZNRF22Rdk1EtYc4xhCXj9vpdrMqMZQoKftRhv27DLukGoTG94C8NKnLWSBp1TEFZt9t2O+epGu3pxP2Byc78YkJFJCMyp9knK1S81yaSk4qTI98B3yWtpcHNjTcAAAAASUVORK5CYII=" />
+                              </svg>
+                            </div>
+                            <div class="coin_price">
+                                <p>11.5433</p>
+                            </div>
+                            <input class="send"id="send" type="button" value="전송하기">
+                        </div>
+                        <div class="right_info">
+                            <div class="box_top">
+                                <div class="box_background">   
+                                    <h1>사용내역</h1>
+                                    <ul style="overflow:scroll; width:500;height:266px">
+                                        
+                                        <li>
+                                            <i class="fa-solid fa-download down"></i>
+                                            <span>Withdraw</span>
+                                            <span>2022.04.16 18:25</span>
+                                            <span>7,000BNB</span>
+                                            <span id="more_info">상세보기</span>
+                                        </li>
+                                        <li>  
+                                            <i class="fa-solid fa-upload upload"></i>
+                                            <span>Deposit</span>
+                                            <span>2022.02.17 18:25</span>
+                                            <span>1,000BNB</span>
+                                            <span id="more_info">상세보기</span>
+                                        </li>
+                                        <li>  
+                                            <i class="fa-solid fa-download down"></i>
+                                            <span>Withdraw</span>
+                                            <span>2022.05.22 18:25</span>
+                                            <span>7,000BNB</span>
+                                            <span id="more_info">상세보기</span>
+                                        </li>
+                                        <li>  
+                                            <i class="fa-solid fa-upload upload"></i>
+                                            <span>Deposit</span>
+                                            <span>2022.07.15 18:25</span>
+                                            <span>2,000BNB</span>
+                                            <span id="more_info">상세보기</span>
+                                        </li>
+                                        <li> 
+                                            <i class="fa-solid fa-download down"></i>
+                                            <span>Withdraw</span>
+                                            <span>2022.02.22 18:25</span>
+                                            <span>5,000BNB</span>
+                                            <span id="more_info">상세보기</span>
+                                        </li>
+                                        <li> 
+                                            <i class="fa-solid fa-download down"></i>
+                                            <span>Withdraw</span>
+                                            <span>2022.02.22 18:25</span>
+                                            <span>5,000BNB</span>
+                                            <span id="more_info">상세보기</span>
+                                        </li>  <li> 
+                                            <i class="fa-solid fa-download down"></i>
+                                            <span>Withdraw</span>
+                                            <span>2022.02.22 18:25</span>
+                                            <span>5,000BNB</span>
+                                            <span id="more_info">상세보기</span>
+                                        </li>  <li> 
+                                            <i class="fa-solid fa-download down"></i>
+                                            <span>Withdraw</span>
+                                            <span>2022.02.22 18:25</span>
+                                            <span>5,000BNB</span>
+                                            <span id="more_info">상세보기</span>
+                                        </li>
+                                    </ul>
+                                    <div class="more_view">
+                                        <p>MORE</p>
+                                    </div>
+                                </div>  
+                            </div>
+                            <div class="box_bottom">
+                                <div class="box_background_bottom">
+                                    <div class="coin_wallet">
+                                        <div class="coin_logo">
+                                            <img src="./Images/레이어 2.png" alt="아이콘">
+                                        </div>
+                                        <div class="coin_center">
+                                            <p>동결수량:12500 WXY</p>
+                                            <p>유동수량:20344001523 WXY</p>
+                                        </div>
+                                        <div class="coin_right">
+                                            <p>Totallock 수량</p>
+                                            <p>15492398384 WXY</p>
+                                        </div>
+                                    </div>
+                                    <div class="coin_roadmap">
+                                        <div class="coin_roadmap_part" id="rp">
+                                            <p>1차 해지일</p>
+                                            <p>22-01-23</p>
+                                            <div class="roadmap_price">
+                                                <h4>35,000</h4>
+                                            </div>
+                                        </div>
+                                        <div class="coin_roadmap_part02" id="rp">
+                                            <p>2차 해지일</p>
+                                            <p>22-02-13</p>
+                                            <div class="roadmap_price">
+                                                <h4>90,000</h4>
+                                            </div>
+                                        </div>
+                                        <div class="coin_roadmap_part03" id="rp">
+                                            <p>3차 해지일</p>
+                                            <p>22-03-03</p>
+                                            <div class="roadmap_price" >
+                                                <h4>20,000</h4>
+                                            </div>
+                                        </div>
+                                        <div class="coin_roadmap_part04" id="rp">
+                                            <p>4차 해지일</p>
+                                            <p>22-05-12</p>
+                                            <div class="roadmap_price">
+                                                <h4>15,000</h4>
+                                            </div>
+                                        </div>
+                                        <div class="coin_roadmap_part05" id="rp">
+                                            <p>5차 해지일</p>
+                                            <p>22-10-23</p>
+                                            <div class="roadmap_price">
+                                                <h4>10,000</h4>
+                                            </div>
+                                        </div>
+                                        <div class="coin_roadmap_part06" id="rp">
+                                            <p>5차 해지일</p>
+                                            <p>22-10-23</p>
+                                            <div class="roadmap_price">
+                                                <h4>15,000</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="left_info">
+                            <div class="coin_name">
+                                <span>WXY</span>
+                            </div>
+                            <div class="coin_address">
+                                <p>WXY Coin</p>
+                                <p>Address : 0xff00bbd12f9ae64fe4dfa9f3dddfdc3d9ecc2378</p>
+                                <svg 
+                                xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="18px" height="21px">
+                               <image  x="0px" y="0px" width="18px" height="21px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAVCAQAAADhwnZkAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfmAwMLGwT70mdjAAABR0lEQVQoz6XSP0/TQRzH8deP/tpSwCb8aUESiMCKE4lx4QGwGMNTIDwABzfjgAk4wAysAgPByObEABoHSRgYWDQsDKwEojaltOfwa9PKHxl4T3ffvO++97m7KAAD5nQoiZKpIKXPhk2I68WiAUvONYm99VrGWlOqOPVVrUVKObLqpSHzbfKK+vTqMaqgoCgNOnQ7NWvQmyh8UPZHtzFHKmiXsehQ1qqqQ71mo7BuWUVVSadIkLPixII9E54KLk3Fjn3TSt6uT17pse0gCRXLyrhskR7J2/HTe2kf1ZBrc52yYfNeuPDOSOM2rnNmzmPBnoJ+x7dLVTv15c+kktLNdg3apYX7pBYeLAW/k7zxncqVrGmjcibj/+wT6Tes0/7dUlrJuu/Jmcr/PEqTX67qn0bsuRnlGwFquozbakhfPFG9td1nP5LhX0bzT8eBEV12AAAAAElFTkSuQmCC" />
+                               </svg>
+                               <svg 
+                               xmlns="http://www.w3.org/2000/svg"
+                               xmlns:xlink="http://www.w3.org/1999/xlink"
+                               width="19px" height="19px">
+                              <image  x="0px" y="0px" width="19px" height="19px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAQAAADYWf5HAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfmAwMLGyYusiaHAAAB/UlEQVQozwXBTUiUaQAA4Gc+X/n8GWYdLcPBXEwN1v6J2cqioliIPXSpiApqIWyDrkF06tqhWxBEBCkt7EIR9HcpzENR3RaXpCU3Km1ETUerGbV1ZnqexP2BT52zi5DQLGVKoyVf1JpQAj/Ey0fC1PrLTfXSKsZ0OGDQHkNi77zWIjLnszN1YSYfNx2WE8t64T98Q4+XflVtXqubZvKhSotR18ROS6tRL0giLeGqeb0ygkBJrZR6wYIaPfoNKasTa/RZrZKyUPHWZr+J5Cx476qKQz6YlHRQSZU3tgsZWa/UShjVo9lxt7y21kp/mxJZ0C0jVGlQVpLS65lx9X427LGzUlKWFK1SI3zVp03KP3ab8Aj92v3psbSikrJ/9QhJF7QKpr3SKaPPW9O6NMl67g+c1CjKue6DWUkjZiz3izdabRG544EN1nloUtQia9q4oiPK+q1xz0XvDBjW5pQT0qYFGBJbUrTVPrNWS7iBXtXuWrRLl2jMS5v8ZIM2T2Rtd9KYHa7YqcGgDsMmBNpF+tQ5at6goj32yvvmvLX22eijkhAJCvIK/letZNRF22Rdk1EtYc4xhCXj9vpdrMqMZQoKftRhv27DLukGoTG94C8NKnLWSBp1TEFZt9t2O+epGu3pxP2Byc78YkJFJCMyp9knK1S81yaSk4qTI98B3yWtpcHNjTcAAAAASUVORK5CYII=" />
+                              </svg>
+                            </div>
+                            <div class="coin_price">
+                                <p>11.5433</p>
+                            </div>
+                            <input class="send"id="send" type="button" value="전송하기">
+                        </div>
+                        <div class="right_info">
+                            <div class="box_top">
+                                <div class="box_background">   
+                                    <ul>
+                                        <h1>사용내역</h1>
+                                        <li>
+                                            <i class="fa-solid fa-download down"></i>
+                                            <span>Withdraw</span>
+                                            <span>2022.04.16 18:25</span>
+                                            <span>7,000WXY</span>
+                                            <span id="more_info">상세보기</span>
+                                        </li>
+                                        <li>  
+                                            <i class="fa-solid fa-upload upload"></i>
+                                            <span>Deposit</span>
+                                            <span>2022.02.17 18:25</span>
+                                            <span>1,000WXY</span>
+                                            <span id="more_info">상세보기</span>
+                                        </li>
+                                        <li>  
+                                            <i class="fa-solid fa-download down"></i>
+                                            <span>Withdraw</span>
+                                            <span>2022.05.22 18:25</span>
+                                            <span>7,000WXY</span>
+                                            <span id="more_info">상세보기</span>
+                                        </li>
+                                        <li>  
+                                            <i class="fa-solid fa-upload upload"></i>
+                                            <span>Deposit</span>
+                                            <span>2022.07.15 18:25</span>
+                                            <span>2,000WXY</span>
+                                            <span id="more_info">상세보기</span>
+                                        </li>
+                                        <li> 
+                                            <i class="fa-solid fa-download down"></i>
+                                            <span>Withdraw</span>
+                                            <span>2022.02.22 18:25</span>
+                                            <span>5,000WXY</span>
+                                            <span id="more_info">상세보기</span>
+                                        </li>
+                                        <div class="more_view">
+                                            <p>MORE</p>
+                                        </div>
+                                    </ul>
+                                </div>  
+                            </div>
+                            <div class="box_bottom">
+                                <div class="box_background_bottom">
+                                    <div class="coin_wallet">
+                                        <div class="coin_logo">
+                                            <img src="./Images/레이어 2.png" alt="아이콘">
+                                        </div>
+                                        <div class="coin_center">
+                                            <p>동결수량:12500 WXY</p>
+                                            <p>유동수량:20344001523 WXY</p>
+                                        </div>
+                                        <div class="coin_right">
+                                            <p>Totallock 수량</p>
+                                            <p>15492398384 WXY</p>
+                                        </div>
+                                    </div>
+                                    <div class="coin_roadmap">
+                                        <div class="coin_roadmap_part" id="rp">
+                                            <p>1차 해지일</p>
+                                            <p>22-01-23</p>
+                                            <div class="roadmap_price">
+                                                <h4>35,000</h4>
+                                            </div>
+                                        </div>
+                                        <div class="coin_roadmap_part02" id="rp">
+                                            <p>2차 해지일</p>
+                                            <p>22-02-13</p>
+                                            <div class="roadmap_price">
+                                                <h4>90,000</h4>
+                                            </div>
+                                        </div>
+                                        <div class="coin_roadmap_part03" id="rp">
+                                            <p>3차 해지일</p>
+                                            <p>22-03-03</p>
+                                            <div class="roadmap_price" >
+                                                <h4>20,000</h4>
+                                            </div>
+                                        </div>
+                                        <div class="coin_roadmap_part04" id="rp">
+                                            <p>4차 해지일</p>
+                                            <p>22-05-12</p>
+                                            <div class="roadmap_price">
+                                                <h4>15,000</h4>
+                                            </div>
+                                        </div>
+                                        <div class="coin_roadmap_part05" id="rp">
+                                            <p>5차 해지일</p>
+                                            <p>22-10-23</p>
+                                            <div class="roadmap_price">
+                                                <h4>10,000</h4>
+                                            </div>
+                                        </div>
+                                        <div class="coin_roadmap_part06" id="rp">
+                                            <p>5차 해지일</p>
+                                            <p>22-10-23</p>
+                                            <div class="roadmap_price">
+                                                <h4>15,000</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="left_info">
+                            <div class="coin_name">
+                                <span>KLAY</span>
+                            </div>
+                            <div class="coin_address">
+                                <p>BinanceSmartChain</p>
+                                <p>Address : 0x3ecd18dee9387a382278dd93e39a31p34563ee1</p>
+                                <svg 
+                                xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="18px" height="21px">
+                               <image  x="0px" y="0px" width="18px" height="21px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAVCAQAAADhwnZkAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfmAwMLGwT70mdjAAABR0lEQVQoz6XSP0/TQRzH8deP/tpSwCb8aUESiMCKE4lx4QGwGMNTIDwABzfjgAk4wAysAgPByObEABoHSRgYWDQsDKwEojaltOfwa9PKHxl4T3ffvO++97m7KAAD5nQoiZKpIKXPhk2I68WiAUvONYm99VrGWlOqOPVVrUVKObLqpSHzbfKK+vTqMaqgoCgNOnQ7NWvQmyh8UPZHtzFHKmiXsehQ1qqqQ71mo7BuWUVVSadIkLPixII9E54KLk3Fjn3TSt6uT17pse0gCRXLyrhskR7J2/HTe2kf1ZBrc52yYfNeuPDOSOM2rnNmzmPBnoJ+x7dLVTv15c+kktLNdg3apYX7pBYeLAW/k7zxncqVrGmjcibj/+wT6Tes0/7dUlrJuu/Jmcr/PEqTX67qn0bsuRnlGwFquozbakhfPFG9td1nP5LhX0bzT8eBEV12AAAAAElFTkSuQmCC" />
+                               </svg>
+                               <svg 
+                               xmlns="http://www.w3.org/2000/svg"
+                               xmlns:xlink="http://www.w3.org/1999/xlink"
+                               width="19px" height="19px">
+                              <image  x="0px" y="0px" width="19px" height="19px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAQAAADYWf5HAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfmAwMLGyYusiaHAAAB/UlEQVQozwXBTUiUaQAA4Gc+X/n8GWYdLcPBXEwN1v6J2cqioliIPXSpiApqIWyDrkF06tqhWxBEBCkt7EIR9HcpzENR3RaXpCU3Km1ETUerGbV1ZnqexP2BT52zi5DQLGVKoyVf1JpQAj/Ey0fC1PrLTfXSKsZ0OGDQHkNi77zWIjLnszN1YSYfNx2WE8t64T98Q4+XflVtXqubZvKhSotR18ROS6tRL0giLeGqeb0ygkBJrZR6wYIaPfoNKasTa/RZrZKyUPHWZr+J5Cx476qKQz6YlHRQSZU3tgsZWa/UShjVo9lxt7y21kp/mxJZ0C0jVGlQVpLS65lx9X427LGzUlKWFK1SI3zVp03KP3ab8Aj92v3psbSikrJ/9QhJF7QKpr3SKaPPW9O6NMl67g+c1CjKue6DWUkjZiz3izdabRG544EN1nloUtQia9q4oiPK+q1xz0XvDBjW5pQT0qYFGBJbUrTVPrNWS7iBXtXuWrRLl2jMS5v8ZIM2T2Rtd9KYHa7YqcGgDsMmBNpF+tQ5at6goj32yvvmvLX22eijkhAJCvIK/letZNRF22Rdk1EtYc4xhCXj9vpdrMqMZQoKftRhv27DLukGoTG94C8NKnLWSBp1TEFZt9t2O+epGu3pxP2Byc78YkJFJCMyp9knK1S81yaSk4qTI98B3yWtpcHNjTcAAAAASUVORK5CYII=" />
+                              </svg>
+                            </div>
+                            <div class="coin_price">
+                                <p>2.5433 WXY</p>
+                            </div>
+                            <input id="send" type="button" value="전송하기">
+                        </div>
+                        <div class="right_info">
+                            <div class="box_top">
+                                <div class="box_background">   
+                                    <ul>
+                                        <h1>사용내역</h1>
+                                        <li>
+                                            <i class="fa-solid fa-download down"></i>
+                                            <span>Withdraw</span>
+                                            <span>2022.04.2 18:25</span>
+                                            <span>2,000WXY</span>
+                                            <span id="more_info">상세보기</span>
+                                        </li>
+                                        <li>  
+                                            <i class="fa-solid fa-upload upload"></i>
+                                            <span>Deposit</span>
+                                            <span>2022.03.17 18:25</span>
+                                            <span>1,000WXY</span>
+                                            <span id="more_info">상세보기</span>
+                                        </li>
+                                        <li>  
+                                            <i class="fa-solid fa-download down"></i>
+                                            <span>Withdraw</span>
+                                            <span>2022.02.12 18:25</span>
+                                            <span>7,000WXY</span>
+                                            <span id="more_info">상세보기</span>
+                                        </li>
+                                        <li>  
+                                            <i class="fa-solid fa-upload upload"></i>
+                                            <span>Deposit</span>
+                                            <span>2022.01.10 18:25</span>
+                                            <span>2,000WXY</span>
+                                            <span id="more_info">상세보기</span>
+                                        </li>
+                                        <li> 
+                                            <i class="fa-solid fa-download down"></i>
+                                            <span>Withdraw</span>
+                                            <span>2022.02.22 18:25</span>
+                                            <span>5,000WXY</span>
+                                            <span id="more_info">상세보기</span>
+                                        </li>
+                                        <div class="more_view">
+                                            <p>MORE</p>
+                                        </div>
+                                    </ul>
+                                </div>  
+                            </div>
+                            <div class="box_bottom">
+                                <div class="box_background_bottom">
+                                    <div class="coin_wallet">
+                                        <div class="coin_logo">
+                                            <img src="./Images/Layer 1.png" alt="아이콘">
+                                        </div>
+                                        <div class="coin_center">
+                                            <p>동결수량:32500 WXY</p>
+                                            <p>유동수량:44424001523 WXY</p>
+                                        </div>
+                                        <div class="coin_right">
+                                            <p>Totallock 수량</p>
+                                            <p>2449239384 WXY</p>
+                                        </div>
+                                    </div>
+                                    <div class="coin_roadmap">
+                                        <div class="coin_roadmap_part" id="rp">
+                                            <p>1차 해지일</p>
+                                            <p>22-01-23</p>
+                                            <div class="roadmap_price">
+                                                <h4>35,000</h4>
+                                            </div>
+                                        </div>
+                                        <div class="coin_roadmap_part02" id="rp">
+                                            <p>2차 해지일</p>
+                                            <p>22-02-13</p>
+                                            <div class="roadmap_price">
+                                                <h4>90,000</h4>
+                                            </div>
+                                        </div>
+                                        <div class="coin_roadmap_part03" id="rp">
+                                            <p>3차 해지일</p>
+                                            <p>22-03-03</p>
+                                            <div class="roadmap_price" >
+                                                <h4>20,000</h4>
+                                            </div>
+                                        </div>
+                                        <div class="coin_roadmap_part04" id="rp">
+                                            <p>4차 해지일</p>
+                                            <p>22-05-12</p>
+                                            <div class="roadmap_price">
+                                                <h4>15,000</h4>
+                                            </div>
+                                        </div>
+                                        <div class="coin_roadmap_part05" id="rp">
+                                            <p>5차 해지일</p>
+                                            <p>22-10-23</p>
+                                            <div class="roadmap_price">
+                                                <h4>10,000</h4>
+                                            </div>
+                                        </div>
+                                        <div class="coin_roadmap_part06" id="rp">
+                                            <p>5차 해지일</p>
+                                            <p>22-10-23</p>
+                                            <div class="roadmap_price">
+                                                <h4>15,000</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="left_info">
+                            <div class="coin_name">
+                                <span>ETH</span>
+                            </div>
+                            <div class="coin_address">
+                                <p>BinanceSmartChain</p>
+                                <p>Address : 0bbd12f9ae64fe4dfa9f3dddfdc3d9e0xff0cc2378</p>
+                                <svg 
+                                xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="18px" height="21px">
+                               <image  x="0px" y="0px" width="18px" height="21px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAVCAQAAADhwnZkAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfmAwMLGwT70mdjAAABR0lEQVQoz6XSP0/TQRzH8deP/tpSwCb8aUESiMCKE4lx4QGwGMNTIDwABzfjgAk4wAysAgPByObEABoHSRgYWDQsDKwEojaltOfwa9PKHxl4T3ffvO++97m7KAAD5nQoiZKpIKXPhk2I68WiAUvONYm99VrGWlOqOPVVrUVKObLqpSHzbfKK+vTqMaqgoCgNOnQ7NWvQmyh8UPZHtzFHKmiXsehQ1qqqQ71mo7BuWUVVSadIkLPixII9E54KLk3Fjn3TSt6uT17pse0gCRXLyrhskR7J2/HTe2kf1ZBrc52yYfNeuPDOSOM2rnNmzmPBnoJ+x7dLVTv15c+kktLNdg3apYX7pBYeLAW/k7zxncqVrGmjcibj/+wT6Tes0/7dUlrJuu/Jmcr/PEqTX67qn0bsuRnlGwFquozbakhfPFG9td1nP5LhX0bzT8eBEV12AAAAAElFTkSuQmCC" />
+                               </svg>
+                               <svg 
+                               xmlns="http://www.w3.org/2000/svg"
+                               xmlns:xlink="http://www.w3.org/1999/xlink"
+                               width="19px" height="19px">
+                              <image  x="0px" y="0px" width="19px" height="19px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAQAAADYWf5HAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfmAwMLGyYusiaHAAAB/UlEQVQozwXBTUiUaQAA4Gc+X/n8GWYdLcPBXEwN1v6J2cqioliIPXSpiApqIWyDrkF06tqhWxBEBCkt7EIR9HcpzENR3RaXpCU3Km1ETUerGbV1ZnqexP2BT52zi5DQLGVKoyVf1JpQAj/Ey0fC1PrLTfXSKsZ0OGDQHkNi77zWIjLnszN1YSYfNx2WE8t64T98Q4+XflVtXqubZvKhSotR18ROS6tRL0giLeGqeb0ygkBJrZR6wYIaPfoNKasTa/RZrZKyUPHWZr+J5Cx476qKQz6YlHRQSZU3tgsZWa/UShjVo9lxt7y21kp/mxJZ0C0jVGlQVpLS65lx9X427LGzUlKWFK1SI3zVp03KP3ab8Aj92v3psbSikrJ/9QhJF7QKpr3SKaPPW9O6NMl67g+c1CjKue6DWUkjZiz3izdabRG544EN1nloUtQia9q4oiPK+q1xz0XvDBjW5pQT0qYFGBJbUrTVPrNWS7iBXtXuWrRLl2jMS5v8ZIM2T2Rtd9KYHa7YqcGgDsMmBNpF+tQ5at6goj32yvvmvLX22eijkhAJCvIK/letZNRF22Rdk1EtYc4xhCXj9vpdrMqMZQoKftRhv27DLukGoTG94C8NKnLWSBp1TEFZt9t2O+epGu3pxP2Byc78YkJFJCMyp9knK1S81yaSk4qTI98B3yWtpcHNjTcAAAAASUVORK5CYII=" />
+                              </svg>
+                            </div>
+                            <div class="coin_price">
+                                <p>302.5433 WXY</p>
+                            </div>
+                            <input id="send" type="button" value="전송하기">
+                        </div>
+                        <div class="right_info">
+                            <div class="box_top">
+                                <div class="box_background">   
+                                    <ul>
+                                        <h1>사용내역</h1>
+                                        <li>
+                                            <i class="fa-solid fa-download down"></i>
+                                            <span>Withdraw</span>
+                                            <span>2022.04.16 18:25</span>
+                                            <span>7,000WXY</span>
+                                            <span id="more_info">상세보기</span>
+                                        </li>
+                                        <li>  
+                                            <i class="fa-solid fa-upload upload"></i>
+                                            <span>Deposit</span>
+                                            <span>2022.02.17 18:25</span>
+                                            <span>1,000WXY</span>
+                                            <span id="more_info">상세보기</span>
+                                        </li>
+                                        <li>  
+                                            <i class="fa-solid fa-download down"></i>
+                                            <span>Withdraw</span>
+                                            <span>2022.05.22 18:25</span>
+                                            <span>7,000WXY</span>
+                                            <span id="more_info">상세보기</span>
+                                        </li>
+                                        <li>  
+                                            <i class="fa-solid fa-upload upload"></i>
+                                            <span>Deposit</span>
+                                            <span>2022.07.15 18:25</span>
+                                            <span>2,000WXY</span>
+                                            <span id="more_info">상세보기</span>
+                                        </li>
+                                        <li> 
+                                            <i class="fa-solid fa-download down"></i>
+                                            <span>Withdraw</span>
+                                            <span>2022.02.22 18:25</span>
+                                            <span>5,000WXY</span>
+                                            <span id="more_info">상세보기</span>
+                                        </li>
+                                        <div class="more_view">
+                                            <p>MORE</p>
+                                        </div>
+                                    </ul>
+                                </div>  
+                            </div>
+                            <div class="box_bottom">
+                                <div class="box_background_bottom">
+                                    <div class="coin_wallet">
+                                        <div class="coin_logo">
+                                            <img src="./Images/이더.png" alt="아이콘">
+                                        </div>
+                                        <div class="coin_center">
+                                            <p>동결수량:3440 WXY</p>
+                                            <p>유동수량:26744001523 WXY</p>
+                                        </div>
+                                        <div class="coin_right">
+                                            <p>Totallock 수량</p>
+                                            <p>15492398384 WXY</p>
+                                        </div>
+                                    </div>
+                                    <div class="coin_roadmap">
+                                        <div class="coin_roadmap_part" id="rp">
+                                            <p>1차 해지일</p>
+                                            <p>22-01-23</p>
+                                            <div class="roadmap_price">
+                                                <h4>35,000</h4>
+                                            </div>
+                                        </div>
+                                        <div class="coin_roadmap_part02" id="rp">
+                                            <p>2차 해지일</p>
+                                            <p>22-02-13</p>
+                                            <div class="roadmap_price">
+                                                <h4>90,000</h4>
+                                            </div>
+                                        </div>
+                                        <div class="coin_roadmap_part03" id="rp">
+                                            <p>3차 해지일</p>
+                                            <p>22-03-03</p>
+                                            <div class="roadmap_price" >
+                                                <h4>20,000</h4>
+                                            </div>
+                                        </div>
+                                        <div class="coin_roadmap_part04" id="rp">
+                                            <p>4차 해지일</p>
+                                            <p>22-05-12</p>
+                                            <div class="roadmap_price">
+                                                <h4>5,000</h4>
+                                            </div>
+                                        </div>
+                                        <div class="coin_roadmap_part05" id="rp">
+                                            <p>5차 해지일</p>
+                                            <p>22-10-23</p>
+                                            <div class="roadmap_price">
+                                                <h4>10,000</h4>
+                                            </div>
+                                        </div>
+                                        <div class="coin_roadmap_part06" id="rp">
+                                            <p>5차 해지일</p>
+                                            <p>22-10-23</p>
+                                            <div class="roadmap_price">
+                                                <h4>15,000</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                  </div>
+        
+            </div>
+        </section>
+        <div class="black_bg"></div>
+
+        <!-- modal -->
+        <div class="modal_wrap">
+            <div class="modal_close"><a href="#">닫기</a></div>
+            <div class="modal_container">
+                <div class="modal_coin_left">
+                    <div class="modal_coin_img">
+                        <img src="./Images/레이어 2.png" alt="클레이 이미지">
+                    </div>
+                    <div class="modal_coin_name">
+                        <p>2.5 WXY</p>
+                        <i class="fa-regular fa-square-caret-down"></i>
+                    </div>
+                    <div class="modal_coin_info">
+                        <p>동결수량 : <span>12500WXY</span></p>
+                        <p>유동수량 : <span>51234512343312WXY</span></p> 
+                    </div>
+                </div>
+                <div class="modal_coin_right">
+                    <div class="modal_coin_address">
+                        <div class="modal_coin_address_inner_box">
+                            <div class="address_top">
+                                <p>입금주소</p>
+                                <button id="address_copy">붙여넣기</button>
+                            </div>
+                            <input type="text" name="입금주소" id="inputAddress">
+                        </div>
+                    </div>
+                    <div class="modal_amount">
+                        <div class="modal_coin_address_inner_box">
+                            <div class="address_top">
+                                <p>수량입력</p>
+                                <button id="address_copy">모두 보내기</button>
+                            </div>
+                            <input type="text" name="입금주소" id="inputAddress">
+                        </div>
+                    </div>
+                    <div class="modal_input">
+                        <input type="button" value="체결하기" id="input_btn">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <script>
+        $(document).ready(function(){
+            $('#m_nav_btn').on({
+                'click':function(){
+                    $('.m_nav').slideToggle();
+                }
+            })
+        });
+        // 스와이프
+        var swiper = new Swiper(".mySwiper", {
+            navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+            },
+            pagination: {
+                type: 'bullets',
+            }
+        });
+        // 모달창
+        function onClick() {
+            document.querySelector('.modal_wrap').style.display ='block';
+            document.querySelector('.black_bg').style.display ='block';
+        }   
+        function offClick() {
+            document.querySelector('.modal_wrap').style.display ='none';
+            document.querySelector('.black_bg').style.display ='none';
+        }
+        document.querySelector('.send').addEventListener('click', onClick);
+        document.querySelector('.modal_close').addEventListener('click', offClick);
+
+
+        AOS.init();
+    </script>
+</body>
+</html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="./CSS/style_sub.css">
+    <link rel="stylesheet" href="/CSS/reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <title>wxy_subpage</title>
+</head>
+<body>
+    <div class="wrap">
+        <header class="header">
+            <div class="container row margin:0 auto">
+                <div class="wallet_logo col-6">
+                <h1>WXY</h1> <span>Wallet</span>
+                </div>
+                <div class="connect col-6 text-end">
+                    <input type="button" id="con_btn" value="Disconnect">
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="container row" style="justify-content:space-between; margin:0 auto" >
+                <div class="nav col-1">
+                    <div class="nav_top">
+                        <div class="d-flex align-items-start">
+                            <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                              <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true"><svg id="wallet_2_" data-name="wallet (2)" xmlns="http://www.w3.org/2000/svg" width="29.112" height="26.052" viewBox="0 0 29.112 26.052">
+                                <path id="패스_9237" data-name="패스 9237" d="M26.243,30.281a3.936,3.936,0,0,0-3.918-3.625H3.931A3.936,3.936,0,0,0,0,30.587V48.776a3.936,3.936,0,0,0,3.931,3.931H25.181a3.936,3.936,0,0,0,3.931-3.931V34.065a3.938,3.938,0,0,0-2.869-3.784ZM3.931,28.492H22.325a2.1,2.1,0,0,1,2.045,1.641H3.931a3.907,3.907,0,0,0-2.095.607v-.154a2.1,2.1,0,0,1,2.095-2.095ZM25.181,50.871H3.931a2.1,2.1,0,0,1-2.095-2.095V34.065A2.1,2.1,0,0,1,3.931,31.97H25.181a2.1,2.1,0,0,1,2.095,2.095v3.2H21.42a4.208,4.208,0,1,0,0,8.416h5.855v3.09A2.1,2.1,0,0,1,25.181,50.871Zm2.095-7.022H21.42a2.372,2.372,0,1,1,0-4.743h5.855Z" transform="translate(0 -26.656)" fill="#272727"/>
+                                <ellipse id="타원_60" data-name="타원 60" cx="0.956" cy="0.956" rx="0.956" ry="0.956" transform="translate(20.805 13.935)" fill="#272727"/>
+                              </svg>
+                              </button>
+                              <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="27.905" height="27.905" viewBox="0 0 27.905 27.905">
+                                <defs>
+                                  <clipPath id="clip-path">
+                                    <path id="Fill_5" data-name="Fill 5" d="M13.953,27.9A13.952,13.952,0,0,1,4.087,4.087,13.952,13.952,0,0,1,23.819,23.819,13.861,13.861,0,0,1,13.953,27.9Zm0-26.294A12.342,12.342,0,1,0,26.294,13.953,12.357,12.357,0,0,0,13.953,1.61Zm0,22.806A10.464,10.464,0,1,1,24.416,13.953,10.476,10.476,0,0,1,13.953,24.416Zm0-19.318a8.855,8.855,0,1,0,8.854,8.855A8.865,8.865,0,0,0,13.953,5.1Zm0,16.1a.806.806,0,0,1-.806-.806V19.05H10.733a.806.806,0,0,1-.8-.806V9.66a.806.806,0,0,1,.8-.806h2.415V7.513a.805.805,0,1,1,1.61,0V8.854h.8a2.417,2.417,0,0,1,2.415,2.415v1.074a2.412,2.412,0,0,1-.617,1.61,2.4,2.4,0,0,1,.617,1.609v1.074a2.417,2.417,0,0,1-2.415,2.415h-.8v1.341A.806.806,0,0,1,13.953,21.2Zm-2.415-6.439V17.44h4.024a.806.806,0,0,0,.806-.8V15.562a.806.806,0,0,0-.806-.8Zm0-4.293v2.683h4.024a.806.806,0,0,0,.806-.8V11.269a.806.806,0,0,0-.806-.8Z" fill="#272727"/>
+                                  </clipPath>
+                                </defs>
+                                <g id="그룹_22" data-name="그룹 22" transform="translate(0 0)">
+                                  <path id="Fill_5-2" data-name="Fill 5" d="M13.953,27.9A13.952,13.952,0,0,1,4.087,4.087,13.952,13.952,0,0,1,23.819,23.819,13.861,13.861,0,0,1,13.953,27.9Zm0-26.294A12.342,12.342,0,1,0,26.294,13.953,12.357,12.357,0,0,0,13.953,1.61Zm0,22.806A10.464,10.464,0,1,1,24.416,13.953,10.476,10.476,0,0,1,13.953,24.416Zm0-19.318a8.855,8.855,0,1,0,8.854,8.855A8.865,8.865,0,0,0,13.953,5.1Zm0,16.1a.806.806,0,0,1-.806-.806V19.05H10.733a.806.806,0,0,1-.8-.806V9.66a.806.806,0,0,1,.8-.806h2.415V7.513a.805.805,0,1,1,1.61,0V8.854h.8a2.417,2.417,0,0,1,2.415,2.415v1.074a2.412,2.412,0,0,1-.617,1.61,2.4,2.4,0,0,1,.617,1.609v1.074a2.417,2.417,0,0,1-2.415,2.415h-.8v1.341A.806.806,0,0,1,13.953,21.2Zm-2.415-6.439V17.44h4.024a.806.806,0,0,0,.806-.8V15.562a.806.806,0,0,0-.806-.8Zm0-4.293v2.683h4.024a.806.806,0,0,0,.806-.8V11.269a.806.806,0,0,0-.806-.8Z" fill="#272727"/>
+                                  <g id="마스크_그룹_22" data-name="마스크 그룹 22" clip-path="url(#clip-path)">
+                                    <g id="Icon_Color" data-name="Icon Color">
+                                      <path id="Color_4" data-name="Color 4" d="M0,0H28V28H0Z" fill="#272727"/>
+                                    </g>
+                                  </g>
+                                </g>
+                              </svg>
+                              </button>
+                              <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false"><svg id="Glyphs_Icon_Wallet_2" data-name="Glyphs/Icon/Wallet 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="27.973" height="27.124" viewBox="0 0 27.973 27.124">
+                                <defs>
+                                  <clipPath id="clip-path">
+                                    <path id="Fill_1" data-name="Fill 1" d="M27.416,27.124H3.377A1.924,1.924,0,0,1,1.455,25.2v-3.39H1.448A1.45,1.45,0,0,1,0,20.364V16.642a1.45,1.45,0,0,1,1.448-1.448h.007V11.8A1.924,1.924,0,0,1,3.377,9.882H4.972v-.9A1.954,1.954,0,0,1,6.923,7.033H10.61V.557A.558.558,0,0,1,11.167,0H22.141A.558.558,0,0,1,22.7.557V7.033h1.868a3.411,3.411,0,0,1,3.407,3.407V26.567A.558.558,0,0,1,27.416,27.124ZM2.569,21.812V25.2a.808.808,0,0,0,.807.806H26.858V11H3.377a.808.808,0,0,0-.807.806v3.39h1.7a3.309,3.309,0,0,1,0,6.619Zm-1.121-5.5a.334.334,0,0,0-.334.334v3.722a.334.334,0,0,0,.334.334H4.274a2.2,2.2,0,1,0,0-4.39ZM22.7,8.148V9.882h4.091a2.289,2.289,0,0,0-2.224-1.734ZM18.261,3.759a.558.558,0,0,1,.557.557V9.882h2.766V1.114H11.724V9.882h2.827V4.316a.557.557,0,0,1,1.114,0V9.882H17.7V4.316A.558.558,0,0,1,18.261,3.759ZM6.923,8.148a.838.838,0,0,0-.837.837v.9H10.61V8.148ZM4.316,19.97A1.467,1.467,0,1,1,5.783,18.5,1.469,1.469,0,0,1,4.316,19.97Zm0-1.819a.352.352,0,1,0,.352.352A.353.353,0,0,0,4.316,18.151Z" transform="translate(0 0)" fill="#272727"/>
+                                  </clipPath>
+                                </defs>
+                                <g id="그룹_33" data-name="그룹 33" transform="translate(0 0)">
+                                  <path id="Fill_1-2" data-name="Fill 1" d="M27.416,27.124H3.377A1.924,1.924,0,0,1,1.455,25.2v-3.39H1.448A1.45,1.45,0,0,1,0,20.364V16.642a1.45,1.45,0,0,1,1.448-1.448h.007V11.8A1.924,1.924,0,0,1,3.377,9.882H4.972v-.9A1.954,1.954,0,0,1,6.923,7.033H10.61V.557A.558.558,0,0,1,11.167,0H22.141A.558.558,0,0,1,22.7.557V7.033h1.868a3.411,3.411,0,0,1,3.407,3.407V26.567A.558.558,0,0,1,27.416,27.124ZM2.569,21.812V25.2a.808.808,0,0,0,.807.806H26.858V11H3.377a.808.808,0,0,0-.807.806v3.39h1.7a3.309,3.309,0,0,1,0,6.619Zm-1.121-5.5a.334.334,0,0,0-.334.334v3.722a.334.334,0,0,0,.334.334H4.274a2.2,2.2,0,1,0,0-4.39ZM22.7,8.148V9.882h4.091a2.289,2.289,0,0,0-2.224-1.734ZM18.261,3.759a.558.558,0,0,1,.557.557V9.882h2.766V1.114H11.724V9.882h2.827V4.316a.557.557,0,0,1,1.114,0V9.882H17.7V4.316A.558.558,0,0,1,18.261,3.759ZM6.923,8.148a.838.838,0,0,0-.837.837v.9H10.61V8.148ZM4.316,19.97A1.467,1.467,0,1,1,5.783,18.5,1.469,1.469,0,0,1,4.316,19.97Zm0-1.819a.352.352,0,1,0,.352.352A.353.353,0,0,0,4.316,18.151Z" transform="translate(0 0)" fill="#272727"/>
+                                  <g id="마스크_그룹_33" data-name="마스크 그룹 33" clip-path="url(#clip-path)">
+                                    <g id="Icon_Color" data-name="Icon Color" transform="translate(0 -0.042)">
+                                      <path id="Color_4" data-name="Color 4" d="M0,0H28V28H0Z" fill="#272727"/>
+                                    </g>
+                                  </g>
+                                </g>
+                              </svg>
+                              </button>
+                              <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="30.556" viewBox="0 0 25 30.556">
+                                <g id="그룹_4029" data-name="그룹 4029" transform="translate(-23.486 -258.08)">
+                                  <path id="제외_20" data-name="제외 20" d="M22.917,30.556H2.084a2.018,2.018,0,0,1-1.476-.608A2.018,2.018,0,0,1,0,28.472v-12.5A2.014,2.014,0,0,1,.608,14.5a2.016,2.016,0,0,1,1.476-.608h.694V9.722A9.4,9.4,0,0,1,5.642,2.865,9.4,9.4,0,0,1,12.5,0a9.4,9.4,0,0,1,6.857,2.865,9.4,9.4,0,0,1,2.865,6.857v4.167h.694A2.077,2.077,0,0,1,25,15.972v12.5a2.074,2.074,0,0,1-2.083,2.083ZM1.968,14.92a1,1,0,0,0-1,1v12.5a1,1,0,0,0,1,1H23.032a1,1,0,0,0,1-1V15.92a1,1,0,0,0-1-1ZM12.5.92A8.51,8.51,0,0,0,4,9.42v4.5H21V9.42A8.51,8.51,0,0,0,12.5.92Z" transform="translate(23.486 258.08)" fill="#272727"/>
+                                </g>
+                              </svg>
+                              </button>
+                            </div>
+                            <div class="tab-content" id="v-pills-tabContent">
+                              <!-- <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">...</div>
+                              <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
+                              <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
+                              <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div> -->
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <section class="contents col-11">
+                    <div class="contents_box">
+                        <div class="contents_top">
+                            <h3 class="h5">토큰 관리</h3>
+                            <div class="chain_change_btn">
+                                <p>Binance Smart Chain</p>
+                                <input type="checkbox" name="" id="">
+                            </div>
+                        </div>
+                        <div class="contents_main row">
+                            <div class="left_box col-5">
+                                <div class="head_line">
+                                    <div class="head_txt">
+                                        <h4 class="h5">토큰 추가 및 정보 변경</h4>
+                                        <h5 class="h6">토큰의 정보를 추가하거나 변경 할 수 있습니다.</h5>
+                                    </div>
+                                    <div class="head_img">
+                                        <img src="./Images/레이어 2.png" alt="코인img">
+                                    </div>
+                                     
+                                </div>
+                                <div class="token_input">
+                                    <div class="token_name" id="token_box"> 
+                                        <h3 class="h6"><span></span><h3>토큰 이름</h3>
+                                        <div class="token_write">
+                                            <input type="search" name="token_name" id="token_name" placeholder="토큰 이름(영문 풀네임)을 입력해주세요.">
+                                        </div>
+                                    </div>
+                                    <div class="token_symbol" id="token_box"> 
+                                        <h3 class="h6">%토큰 심볼</h3>
+                                        <div class="token_write">
+                                            <input type="search" name="token_name" id="token_name" placeholder="토큰 심볼(영문 약어 3~4)을 입력해주세요.">
+                                        </div>
+                                    </div>
+                                    <div class="token_decimal" id="token_box"> 
+                                        <h3 class="h6">%디시멀 값</h3>
+                                        <div class="token_write">
+                                            <input type="search" name="token_name" id="token_name" placeholder="소수점 자릿수(Decimals)을 입력해주세요.">
+                                        </div>
+                                    </div>
+                                    <div class="token_address" id="token_box"> 
+                                        <h3 class="h6">%컨트랙트 주소</h3>
+                                        <div class="token_write tka">
+                                            <input type="search" name="token_name" id="token_name" class="token_add" placeholder="토큰 컨트랙트 주소 입력해주세요.">
+                                        </div>
+                                    </div>
+   
+                                    <input type="button" value="저장하기">
+                                </div>
+                            </div>
+                            <div class="right_box col-6" style="width:56%;">
+                                <div class="coin_info">
+                                    <div class="coin_wxy">
+                                        <img src="./Images/레이어 2.png" alt="WXY_coin">
+                                        <p>WXY COIN</p>
+                                        <button>버튼</button>
+                                    </div>
+                                    <div class="coin_binance_coin">
+                                        <img src="./Images/03 (10).png" alt="WXY_coin">
+                                        <p>Binance Coin</p>
+                                        <button>버튼</button>
+                                    </div>
+                                    <div class="null">
+                                        <p>Coin 추가</p>   
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer class="footer"></footer>
+   
+        <div class="modal">
+        </div>
+    </div> 
+
+    <script>
+       
+    </script>
+</body>
+</html>

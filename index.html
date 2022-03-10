@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:url" content="https://github.com/SJY1924/wxy/blob/main/Images/meta_guide.png">
-    <meta property="og:image" content="https://github.com/SJY1924/wxy/blob/main/Images/meta_guide.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/CSS/style.css">
     <link rel="stylesheet" href="CSS/reset.css">
@@ -33,6 +31,7 @@
                         <li><a href="#"></a>DOWNLOAD</li>
                         <li><a href="#"></a>NOTICE</li>
                         <li><a href="#"></a>CONNET</li>
+                        <img src="./Images/bars-staggered-solid-23.png" alt="">
                     </ul>
                     <div class="navbar_m">
                         <i class="fa-solid fa-bars" id="m_nav_btn"></i>
@@ -77,7 +76,10 @@
                             <div class="coin_price">
                                 <p>11.5433</p>
                             </div>
-                            <input class="send"id="send" type="button" value="전송하기">
+                            <div class="send_area">
+                                <input class="send"id="send" type="button" value="전송하기">
+                                <input class="send"id="send" type="button" value="전송하기">
+                            </div>
                         </div>
                         <div class="right_info">
                             <div class="box_top">
@@ -145,63 +147,64 @@
                                     </div>
                                 </div>  
                             </div>
-                            <div class="box_bottom">
-                                <div class="box_background_bottom">
-                                    <div class="coin_wallet">
-                                        <div class="coin_logo">
-                                            <img src="./Images/레이어 2.png" alt="아이콘">
-                                        </div>
-                                        <div class="coin_center">
-                                            <p>동결수량:12500 WXY</p>
-                                            <p>유동수량:20344001523 WXY</p>
-                                        </div>
-                                        <div class="coin_right">
-                                            <p>Totallock 수량</p>
-                                            <p>15492398384 WXY</p>
+
+                        </div>
+                        <div class="box_bottom">
+                            <div class="box_background_bottom">
+                                <div class="coin_wallet">
+                                    <div class="coin_logo">
+                                        <img src="./Images/레이어 2.png" alt="아이콘">
+                                    </div>
+                                    <div class="coin_center">
+                                        <p>동결수량:12500 WXY</p>
+                                        <p>유동수량:20344001523 WXY</p>
+                                    </div>
+                                    <div class="coin_right">
+                                        <p>Totallock 수량</p>
+                                        <p>15492398384 WXY</p>
+                                    </div>
+                                </div>
+                                <div class="coin_roadmap">
+                                    <div class="coin_roadmap_part" id="rp">
+                                        <p>1차 해지일</p>
+                                        <p>22-01-23</p>
+                                        <div class="roadmap_price">
+                                            <h4>35,000</h4>
                                         </div>
                                     </div>
-                                    <div class="coin_roadmap">
-                                        <div class="coin_roadmap_part" id="rp">
-                                            <p>1차 해지일</p>
-                                            <p>22-01-23</p>
-                                            <div class="roadmap_price">
-                                                <h4>35,000</h4>
-                                            </div>
+                                    <div class="coin_roadmap_part02" id="rp">
+                                        <p>2차 해지일</p>
+                                        <p>22-02-13</p>
+                                        <div class="roadmap_price">
+                                            <h4>90,000</h4>
                                         </div>
-                                        <div class="coin_roadmap_part02" id="rp">
-                                            <p>2차 해지일</p>
-                                            <p>22-02-13</p>
-                                            <div class="roadmap_price">
-                                                <h4>90,000</h4>
-                                            </div>
+                                    </div>
+                                    <div class="coin_roadmap_part03" id="rp">
+                                        <p>3차 해지일</p>
+                                        <p>22-03-03</p>
+                                        <div class="roadmap_price" >
+                                            <h4>20,000</h4>
                                         </div>
-                                        <div class="coin_roadmap_part03" id="rp">
-                                            <p>3차 해지일</p>
-                                            <p>22-03-03</p>
-                                            <div class="roadmap_price" >
-                                                <h4>20,000</h4>
-                                            </div>
+                                    </div>
+                                    <div class="coin_roadmap_part04" id="rp">
+                                        <p>4차 해지일</p>
+                                        <p>22-05-12</p>
+                                        <div class="roadmap_price">
+                                            <h4>15,000</h4>
                                         </div>
-                                        <div class="coin_roadmap_part04" id="rp">
-                                            <p>4차 해지일</p>
-                                            <p>22-05-12</p>
-                                            <div class="roadmap_price">
-                                                <h4>15,000</h4>
-                                            </div>
+                                    </div>
+                                    <div class="coin_roadmap_part05" id="rp">
+                                        <p>5차 해지일</p>
+                                        <p>22-10-23</p>
+                                        <div class="roadmap_price">
+                                            <h4>10,000</h4>
                                         </div>
-                                        <div class="coin_roadmap_part05" id="rp">
-                                            <p>5차 해지일</p>
-                                            <p>22-10-23</p>
-                                            <div class="roadmap_price">
-                                                <h4>10,000</h4>
-                                            </div>
-                                        </div>
-                                        <div class="coin_roadmap_part06" id="rp">
-                                            <p>5차 해지일</p>
-                                            <p>22-10-23</p>
-                                            <div class="roadmap_price">
-                                                <h4>15,000</h4>
-                                            </div>
+                                    </div>
+                                    <div class="coin_roadmap_part06" id="rp">
+                                        <p>5차 해지일</p>
+                                        <p>22-10-23</p>
+                                        <div class="roadmap_price">
+                                            <h4>15,000</h4>
                                         </div>
                                     </div>
                                 </div>

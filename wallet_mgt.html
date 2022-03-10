@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="/CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/style_sub.css">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <title>wxy_subpage</title>
+</head>
+<body>
+    <div class="wrap">
+        <header class="header">
+            <div class="container row" style="margin:0 auto;">
+                <div class="wallet_logo col-6">
+                <h1><a href="index.html">뒤로가기</a></h1>
+                </div>
+                <div class="connect col-6 text-end">
+                    <div class="input_area">
+                        <input type="button" id="con_btn" value="Disconnect">
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="container row" style="justify-content:space-between; margin:0 auto" >
+                <div class="nav col-1">
+                    <div class="nav_top">
+                        <div class="d-flex align-items-start">
+                            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true"><img src="./Images/wallet-icon.png" alt=""></button>
+                                <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false"><img src="./Images/bitcoin_icon.png" alt=""></button>
+                                <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false"><img src="./Images/print_icon.png" alt=""></button>
+                                <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false"><img src="./Images/lock_icon.png" alt=""></button>
+                                <button class="nav-link" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true"><img src="./Images/home_icon.png" alt=""></button>
+                                <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false"><img src="./Images/book_icon.png" alt=""></button>
+                                <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false"><img src="./Images/book_icon.png" alt=""></button>
+                                <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false"><img src="./Images/gear_icon.png" alt=""></button>
+                                <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false"><img src="./Images/door_icon.png" alt=""></button>
+                              <!-- <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">...</div>
+                              <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
+                              <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
+                              <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div> -->
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <section class="contents col-11">
+                    <div class="contents_box">
+                        <div class="contents_border_bottom" style="border-bottom: 1px solid #999999;">
+                            <div class="contents_top">
+                                <h3 class="main_font">토큰 관리</h3>
+                                <div class="chain_change_btn">
+                                    <p>Binance Smart Chain</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contents_main row">
+                            <div class="left_box col-5">
+                                <div class="head_line">
+                                    <div class="head_txt">
+                                        <h4 class="h5">토큰 추가 및 정보 변경</h4>
+                                        <h5 class="h6">토큰의 정보를 추가하거나 변경 할 수 있습니다.</h5>
+                                    </div>
+                                    <div class="head_img">
+                                        <img src="./Images/coin.png" alt="코인img">
+                                    </div>
+                                     
+                                </div>
+                                <div class="token_input">
+                                    <div class="token_name" id="token_box"> 
+                                        <h3 class="h6">토큰 이름</h3>
+                                        <div class="token_write">
+                                            <input type="search" name="token_name" id="token_name" placeholder="토큰 이름(영문 풀네임)을 입력해주세요.">
+                                        </div>
+                                    </div>
+                                    <div class="token_symbol" id="token_box"> 
+                                        <h3 class="h6">토큰 심볼</h3>
+                                        <div class="token_write">
+                                            <input type="search" name="token_name" id="token_name" placeholder="토큰 심볼(영문 약어 3~4)을 입력해주세요.">
+                                        </div>
+                                    </div>
+                                    <div class="token_decimal" id="token_box"> 
+                                        <h3 class="h6">디시멀 값</h3>
+                                        <div class="token_write">
+                                            <input type="search" name="token_name" id="token_name" placeholder="소수점 자릿수(Decimals)을 입력해주세요.">
+                                        </div>
+                                    </div>
+                                    <div class="token_address" id="token_box"> 
+                                        <h3 class="h6">컨트랙트 주소</h3>
+                                        <div class="token_write tka">
+                                            <input type="search" name="token_name" id="token_name" class="token_add" placeholder="토큰 컨트랙트 주소 입력해주세요.">
+                                        </div>
+                                    </div>
+                                    <input type="button" value="저장하기" class="input_btn">
+                                </div>
+                            </div>
+                            <div class="right_box col-6">
+                                <div class="coin_info">
+                                    <div class="coin_wxy">
+                                        <div class="coin_wxy_left">
+                                            <img src="./Images/레이어 2.png" alt="WXY_coin">
+                                            <p>WXY COIN</p>
+                                        </div>
+                                        <div class="wrap_box">
+                                            <input type="checkbox" id="chk1">
+                                            <label for="chk1"></label>
+                                        </div>
+                                    </div>
+                                    <div class="coin_binance_coin ">
+                                        <div class="coin_wxy_left">
+                                            <img src="./Images/03 (10).png" alt="WXY_coin">
+                                            <p>Binance Coin</p>
+                                        </div>
+                                        <div class="wrap_box">
+                                            <input type="checkbox" id="chk2">
+                                            <label for="chk2"></label>
+                                        </div>
+                                    </div>
+                                    <div class="null">
+                                       <img src="./Images/plus_icon.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer class="footer"></footer>
+
+        <div class="modal">
+        </div>
+    </div> 
+
+    <script>
+        var myModal = document.getElementById('myModal')
+        var myInput = document.getElementById('myInput')
+
+        myModal.addEventListener('shown.bs.modal', function () {
+        myInput.focus()
+        });
+    
+    </script>
+</body>
+</html>
